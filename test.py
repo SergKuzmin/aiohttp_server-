@@ -1,6 +1,6 @@
 import requests
 import os
-API_URL = 'http://{}:{}/api'.format('0.0.0.0', '8080')
+API_URL = 'http://{}:{}/api'.format('192.168.0.150', '8463')
 
 
 def send_massage(file_paths):
